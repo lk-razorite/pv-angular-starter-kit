@@ -1,15 +1,23 @@
 {
+<<<<<<< HEAD
   "name": "poshvine-angular-starter-kit",
+=======
+  "name": "pv-angular-starter-kit",
+>>>>>>> b3fc051 (initial commit - using ng new)
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+<<<<<<< HEAD
     "test": "ng test",
     "lint": "tsc && ng lint",
     "prepare": "husky install",
     "pre-commit": "tsc && lint-staged"
+=======
+    "test": "ng test"
+>>>>>>> b3fc051 (initial commit - using ng new)
   },
   "private": true,
   "dependencies": {
@@ -27,6 +35,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.2.6",
+<<<<<<< HEAD
     "@angular-eslint/builder": "15.2.1",
     "@angular-eslint/eslint-plugin": "15.2.1",
     "@angular-eslint/eslint-plugin-template": "15.2.1",
@@ -41,15 +50,23 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
+=======
+    "@angular/cli": "~15.2.6",
+    "@angular/compiler-cli": "^15.2.0",
+    "@types/jasmine": "~4.3.0",
+>>>>>>> b3fc051 (initial commit - using ng new)
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+<<<<<<< HEAD
     "lint-staged": "^13.2.1",
     "prettier": "^2.8.7",
     "prettier-eslint": "^15.0.1",
+=======
+>>>>>>> b3fc051 (initial commit - using ng new)
     "typescript": "~4.9.4"
   }
 }
