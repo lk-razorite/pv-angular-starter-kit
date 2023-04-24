@@ -5,12 +5,16 @@ describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
 <<<<<<< HEAD
+<<<<<<< HEAD
       declarations: [AppComponent],
 =======
       declarations: [
         AppComponent
       ],
 >>>>>>> b3fc051 (initial commit - using ng new)
+=======
+      declarations: [AppComponent],
+>>>>>>> 975762a (feat(CODE-26): added intial setups of eslint + prettier + lint-staged + precommit hook + commit-msg hook)
     }).compileComponents();
   });
 
@@ -38,9 +42,15 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(compiled.querySelector('.content span')?.textContent).toContain('poshvine-angular-starter-kit app is running!');
 =======
     expect(compiled.querySelector('.content span')?.textContent).toContain('pv-angular-starter-kit app is running!');
 >>>>>>> b3fc051 (initial commit - using ng new)
+=======
+    expect(compiled.querySelector('.content span')?.textContent).toContain(
+      'pv-angular-starter-kit app is running!'
+    );
+>>>>>>> 975762a (feat(CODE-26): added intial setups of eslint + prettier + lint-staged + precommit hook + commit-msg hook)
   });
 });

@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 
 @NgModule({
 <<<<<<< HEAD
+<<<<<<< HEAD
   declarations: [AppComponent],
   imports: [BrowserModule],
   providers: [],
@@ -18,8 +19,16 @@ export class AppModule {}
   imports: [
     BrowserModule
   ],
+=======
+  declarations: [AppComponent],
+  imports: [BrowserModule],
+>>>>>>> 975762a (feat(CODE-26): added intial setups of eslint + prettier + lint-staged + precommit hook + commit-msg hook)
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
+<<<<<<< HEAD
 export class AppModule { }
 >>>>>>> b3fc051 (initial commit - using ng new)
+=======
+export class AppModule {}
+>>>>>>> 975762a (feat(CODE-26): added intial setups of eslint + prettier + lint-staged + precommit hook + commit-msg hook)
