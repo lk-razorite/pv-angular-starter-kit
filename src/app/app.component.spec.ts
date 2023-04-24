@@ -1,7 +1,8 @@
-import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { render, screen } from '@testing-library/angular';
 
 describe('AppComponent', () => {
+<<<<<<< HEAD
   beforeEach(async () => {
     await TestBed.configureTestingModule({
 <<<<<<< HEAD
@@ -52,5 +53,10 @@ describe('AppComponent', () => {
       'pv-angular-starter-kit app is running!'
     );
 >>>>>>> 975762a (feat(CODE-26): added intial setups of eslint + prettier + lint-staged + precommit hook + commit-msg hook)
+=======
+  it('should create the app', async () => {
+    await render(AppComponent);
+    expect(screen.getByText(/pv-angular-starter-kit/i)).toBeInTheDocument();
+>>>>>>> 601c88a (feat(CODE-42): setup of testing framework changes)
   });
 });

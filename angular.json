@@ -34,11 +34,10 @@
             "outputPath": "dist/pv-angular-starter-kit",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
+<<<<<<< HEAD
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -47,6 +46,10 @@
               "src/styles.scss"
             ],
 >>>>>>> b3fc051 (initial commit - using ng new)
+=======
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
+>>>>>>> 601c88a (feat(CODE-42): setup of testing framework changes)
             "scripts": []
           },
           "configurations": {
@@ -105,6 +108,7 @@
 >>>>>>> b3fc051 (initial commit - using ng new)
           }
         },
+<<<<<<< HEAD
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
@@ -150,13 +154,12 @@
             "scripts": []
           }
         },
+=======
+>>>>>>> 601c88a (feat(CODE-42): setup of testing framework changes)
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
-            "lintFilePatterns": [
-              "src/**/*.ts",
-              "src/**/*.html"
-            ]
+            "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
           }
         }
       }
@@ -166,9 +169,13 @@
 =======
   },
   "cli": {
+<<<<<<< HEAD
     "schematicCollections": [
       "@angular-eslint/schematics"
     ]
 >>>>>>> 975762a (feat(CODE-26): added intial setups of eslint + prettier + lint-staged + precommit hook + commit-msg hook)
+=======
+    "schematicCollections": ["@angular-eslint/schematics"]
+>>>>>>> 601c88a (feat(CODE-42): setup of testing framework changes)
   }
 }
