@@ -2,6 +2,9 @@
 # poshvine-angular-starter-kit
 =======
 # pv-angular-starter-kit
+<<<<<<< HEAD
+>>>>>>> b3fc051 (initial commit - using ng new)
+=======
 >>>>>>> b3fc051 (initial commit - using ng new)
 
 This project is an angular starter kit for poshvine projects. It contains GitHooks, Prettier, Eslint, Test setup out of the box
@@ -22,7 +25,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm run test` to execute the unit tests
 
 ## Running end-to-end tests
 
