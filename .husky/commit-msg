@@ -5,7 +5,7 @@ message="$(cat $1)"
 projectJiraId="CODE"
 
 # Message Format should be fix(PVBS-123):
-requiredPattern="^(feat|fix|refactor|reformat|merge)\(($projectJiraId-[0-9]+)\):?.{5,}"
+requiredPattern="^(feat|fix|refactor|reformat|merge|chore|docs)\(($projectJiraId-[0-9]+)\):?.{5,}"
 
 if ! [[ $message =~ $requiredPattern ]]
 then
