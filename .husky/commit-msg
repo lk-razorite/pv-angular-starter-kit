@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+message="$(cat $1)"
+projectJiraId="CODE"
+
+# Message Format should be fix(PVBS-123):
+requiredPattern="^(feat|fix|refactor|reformat|merge|chore|docs)\(($projectJiraId-[0-9]+)\):?.{5,}"
+
+if ! [[ $message =~ $requiredPattern ]]
+then
+  echo ""
+  echo "🚨 Wrong commit message format !!!"
+  echo ""
+  echo "The commit message must have commit type, JIRA id and a commit description (min 5 characters)."
+  echo "Example \033[92mfix(PVBS-123): some feature\033[0m"
+  echo ""
+  echo "Your commit message was:"
+  echo "\033[91m$message\033[0m"
+  echo ""
+  echo "For more information, check script in .husky/commit-msg"
+  echo ""
+  exit 1
+fi
